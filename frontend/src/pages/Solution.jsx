@@ -62,9 +62,18 @@ const Solution = () => {
               </CardHeader>
               <CardContent>
                 <h3 className="font-bold text-lg mb-2">Angular</h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   Chosen due to its component architecture that enables a maintainable and structured user interface. Provides robust framework for building complex web applications with excellent performance.
                 </p>
+                <a 
+                  href="https://github.com/chmythri98/Alumni_ManagmentApp" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-semibold text-sm transition-colors"
+                >
+                  <Code className="w-4 h-4" />
+                  View Frontend Code on GitHub
+                </a>
               </CardContent>
             </Card>
 
@@ -77,9 +86,18 @@ const Solution = () => {
               </CardHeader>
               <CardContent>
                 <h3 className="font-bold text-lg mb-2">Firebase Platform</h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   Selected for its real-time reporting, high security by Firestore rules, and low maintenance. Serverless platform removes backend infrastructure complexity, enabling scalability without running servers.
                 </p>
+                <a 
+                  href="https://github.com/Arshad123-khan/alumni-backend.git" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-semibold text-sm transition-colors"
+                >
+                  <Cloud className="w-4 h-4" />
+                  View Backend Code on GitHub
+                </a>
               </CardContent>
             </Card>
           </div>
