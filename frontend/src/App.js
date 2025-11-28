@@ -16,7 +16,8 @@ import { Toaster } from "./components/ui/sonner";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* ✅ basename added so routing works on GitHub Pages */}
+      <BrowserRouter basename="/finalpresentation">
         <Navbar />
         <div className="pt-16">
           <Routes>
