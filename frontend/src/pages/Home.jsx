@@ -33,18 +33,19 @@ const Home = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-              onClick={() => document.getElementById('executive-summary').scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/dashboard', '_blank')}
             >
-              Explore Project
-              <ArrowRight className="ml-2 w-5 h-5" />
+              <LineChart className="mr-2 w-5 h-5" />
+              Live Dashboard
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-2 border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/dashboard', '_blank')}
+              onClick={() => document.getElementById('executive-summary').scrollIntoView({ behavior: 'smooth' })}
             >
-              View Dashboard
+              <ArrowRight className="mr-2 w-5 h-5" />
+              Read More
             </Button>
           </div>
         </div>
