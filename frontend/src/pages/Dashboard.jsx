@@ -221,50 +221,55 @@ const Dashboard = () => {
         <Card className="mb-16 bg-slate-50 border-none shadow-lg">
           <CardContent className="p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Insights from Dashboard</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="space-y-6">
               <div className="bg-white p-6 rounded-lg shadow">
                 <h3 className="font-bold text-teal-600 mb-3 flex items-center gap-2">
                   <TrendingUp className="w-5 h-5" />
-                  Academic Trends
+                  1. Volatile Data Engagement Requires Immediate Analysis
                 </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Steady increase in STEM graduates from 2016-2025</li>
-                  <li>• Computer Science and Engineering dominate enrollment</li>
-                  <li>• Growing diversity in academic programs</li>
-                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  The quick decline in alumni participation (c.f., 2024) that is shown in the total alumni participation per year graphic was not easily recognized and reacted to with the many disparate pieces of data. Therefore, a centralized, immediate data analysis system with a centralized, immediate reaction to alumni participation issues was needed.
+                </p>
               </div>
+              
               <div className="bg-white p-6 rounded-lg shadow">
                 <h3 className="font-bold text-orange-600 mb-3 flex items-center gap-2">
-                  <Building className="w-5 h-5" />
-                  Employment Patterns
+                  <MapPin className="w-5 h-5" />
+                  2. Recognition of the Success of Local Events Requires a Replication Strategy
                 </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Strong placement with top tech employers</li>
-                  <li>• High demand for software engineers and data analysts</li>
-                  <li>• Diverse career pathways across industries</li>
-                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  The graph displaying Chicago as the highest participation site for the alumni experience and that "Young Alumni Networking" was the highest participation event for alumni represents valuable "outreach" opportunities. The disconnected nature of the old system made it difficult to determine and replicate these successful local event models to create personalized communication.
+                </p>
               </div>
+              
               <div className="bg-white p-6 rounded-lg shadow">
                 <h3 className="font-bold text-teal-600 mb-3 flex items-center gap-2">
-                  <Calendar className="w-5 h-5" />
-                  Engagement Metrics
+                  <Building className="w-5 h-5" />
+                  3. Lack of Trustworthy Centralized Data on Alumni Employment Preventing Career Services
                 </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Identifies most successful event formats</li>
-                  <li>• Geographic hotspots for alumni engagement</li>
-                  <li>• Year-over-year participation trends</li>
-                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  The importance of the Information Systems program and the top employers, i.e., Amazon, provides the need for a trustworthy, centralized source of information, i.e., the new platform, to allow Career Services to properly identify and establish employer relationships and for the Admissions Department to appropriately target employment recruitment.
+                </p>
               </div>
+              
               <div className="bg-white p-6 rounded-lg shadow">
                 <h3 className="font-bold text-orange-600 mb-3 flex items-center gap-2">
-                  <Users className="w-5 h-5" />
-                  Strategic Value
+                  <BarChart3 className="w-5 h-5" />
+                  4. Substantial Complexity of Duplicate and Inconsistent Alumni Data to Be Properly Managed
                 </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Supports data-driven decision making</li>
-                  <li>• Enhances institutional planning capabilities</li>
-                  <li>• Improves alumni outreach effectiveness</li>
-                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  The complexity of managing over 1000 alumni with 23 different majors and 55 different job roles creates a challenge and leads to duplicate and inconsistent records on spreadsheets. Additionally, the new system's automatic validation and deduplication of data ensures data accuracy and consistency.
+                </p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow">
+                <h3 className="font-bold text-teal-600 mb-3 flex items-center gap-2">
+                  <Users className="w-5 h-5" />
+                  5. Growing Number of Graduates Requires New Alumni Management and Reporting Capabilities
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  The increase in the number of graduates over the last decade indicates that the process of managing and reporting on alumni is ever-changing.
+                </p>
               </div>
             </div>
           </CardContent>
