@@ -1,5 +1,5 @@
 import React from 'react';
-import { Lightbulb, Users, TrendingUp, Award, Heart, Code } from 'lucide-react';
+import { Lightbulb, Users, TrendingUp, Award, Heart, Code, Database } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 
 const Reflection = () => {
