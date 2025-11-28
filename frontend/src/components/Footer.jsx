@@ -20,7 +20,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <a 
-                  href="https://alumnidatamanagmentsystem.web.app/home" 
+                  href="https://alumnidatamanagmentsystem.web.app/dashboard" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-teal-400 transition-colors inline-flex items-center gap-1"
