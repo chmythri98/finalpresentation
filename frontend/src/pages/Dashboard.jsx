@@ -22,7 +22,7 @@ const Dashboard = () => {
           <Button 
             size="lg"
             className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-            onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/home', '_blank')}
+            onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/dashboard', '_blank')}
           >
             <ExternalLink className="mr-2 w-5 h-5" />
             View Live Dashboard
