@@ -42,7 +42,7 @@ const Home = () => {
               size="lg" 
               variant="outline" 
               className="border-2 border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/home', '_blank')}
+              onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/dashboard', '_blank')}
             >
               View Dashboard
             </Button>
