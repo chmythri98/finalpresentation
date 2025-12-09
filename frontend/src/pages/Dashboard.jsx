@@ -35,22 +35,6 @@ const Dashboard = () => {
           </a>
         </div>
 
-        {/* Dashboard Preview Image */}
-        <div className="mb-16">
-          <Card className="border-none shadow-2xl overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86" 
-              alt="Data Visualization" 
-              className="w-full h-96 object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-              <div className="p-8 text-white">
-                <h3 className="text-2xl font-bold mb-2">Real-Time Analytics Platform</h3>
-                <p className="text-gray-200">Visualizing alumni trends, employment patterns, and engagement metrics</p>
-              </div>
-            </div>
-          </Card>
-        </div>
 
         {/* Demo Video */}
         <div className="mb-16">
