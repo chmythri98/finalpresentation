@@ -19,14 +19,20 @@ const Dashboard = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Interactive analytics transforming alumni data into actionable insights
           </p>
-          <Button 
-            size="lg"
-            className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-            onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/dashboard', '_blank')}
+          <a 
+            href="https://alumnidatamanagmentsystem.web.app/dashboard" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block"
           >
-            <ExternalLink className="mr-2 w-5 h-5" />
-            View Live Dashboard
-          </Button>
+            <Button 
+              size="lg"
+              className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+            >
+              <ExternalLink className="mr-2 w-5 h-5" />
+              View Live Dashboard
+            </Button>
+          </a>
         </div>
 
         {/* Dashboard Preview Image */}
@@ -43,6 +49,36 @@ const Dashboard = () => {
                 <p className="text-gray-200">Visualizing alumni trends, employment patterns, and engagement metrics</p>
               </div>
             </div>
+          </Card>
+        </div>
+
+        {/* Demo Video */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Demo Video of Our Dashboard</h2>
+          <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-8">
+            Watch this interactive demo to see how our dashboard brings alumni data to life with real-time visualizations and insights.
+          </p>
+          <Card className="border-none shadow-xl overflow-hidden">
+            <CardContent className="p-0">
+              <div style={{ position: 'relative', width: '100%', height: 0, paddingBottom: '56.25%' }}>
+                <iframe
+                  src="https://slu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=8e687df5-b289-4af7-bd5a-b3ad003854c2&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=false&interactivity=all"
+                  style={{
+                    border: '1px solid #464646',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    boxSizing: 'border-box'
+                  }}
+                  allowFullScreen
+                  allow="autoplay"
+                  aria-label="Panopto Embedded Video Player"
+                  aria-description="Sun Dec 07 2025 8:47:38 PM"
+                ></iframe>
+              </div>
+            </CardContent>
           </Card>
         </div>
 

@@ -30,14 +30,19 @@ const Home = () => {
             Centralizing alumni data, automating workflows, and transforming insights for Global Horizon University
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-              onClick={() => window.open('https://alumnidatamanagmentsystem.web.app/dashboard', '_blank')}
+            <a 
+              href="https://alumnidatamanagmentsystem.web.app/dashboard" 
+              target="_blank" 
+              rel="noopener noreferrer"
             >
-              <LineChart className="mr-2 w-5 h-5" />
-              Live Dashboard
-            </Button>
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-6 text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                <LineChart className="mr-2 w-5 h-5" />
+                Live Dashboard
+              </Button>
+            </a>
             <Button 
               size="lg" 
               variant="outline" 
